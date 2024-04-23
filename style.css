@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+.cell {
+    stroke: #fff;
+}
+
+.tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    pointer-events: none;
+}
+
+.legend {
+    margin-top: 20px;
+}
+
+.legend div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.legend div span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
